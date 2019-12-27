@@ -1,0 +1,48 @@
+uname -r
+yum -y update
+卸载旧版本：yum remove docker docker-common docker-selinux docker-engine
+安装需要的软件包：yum install -y yum-utils device-mapper-persistent-data lvm2
+设置yum源: yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+查看docker仓库版本:yum list docker-ce --showduplicates |sort -r
+安装docker: sudo yum install  -y docker-ce 如:docker: sudo yum install docker-ce-18.03.1.ce
+systemctl start docker
+设置为开机启动:
+systemctl enable docker
+docker -version
+卸载:yum -y remove docker-engine
+
+
+镜像源：
+cd /etc/docker
+查看有没有daemon.json
+vim daemon.json
+{
+"registry-mirrors":"https://m9r2r2uj.mirror.aliyuncs.com"
+}
+重启:service docker restart
+
+
+构建启动服务:Dockerfile
+From java:8
+#将本地文件挂在当前容器 VOLUM /tmp
+#复制文件到容器:ADD xxx.jar /app.jar
+#声明暴露端口 expose 8761
+#配置容器启动执行命令
+ENTRYPOINT ["java","-jar","/app.jar"]
+#docker build 构建镜像
+docker build -t xxxx(镜像名:标签) Dockerfile的相对位置  ， docker build -t xxx .
+
+查询镜像：docker search
+列出本地镜像：docker images
+下载镜像: docker pull java:8
+删除本地镜像：docker rml java
+列出正在运行的容器:docker ps
+启动容器:docker run -d -p 91:80 nginx (-d:后台运行，-p:宿主机端口：容器端口)
+停止容器:docker stop xxx
+强制停止:docker kill xxx
+启动已停止的容器:docker start xxx
+查看容器的信息:docker inspect xxx
+查看容器日志:docker container logs xxx
+查看容器进程:docker top xxx
+进入容器:docker container exec -it xxx
+删除容器:docker rm xxx  
