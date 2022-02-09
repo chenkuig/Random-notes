@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T01:58:12.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="owi_7EI-qxrmK5fJmPcH" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T02:03:03.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="YeROyec9uqcwEecZ-8UE" version="16.5.3" type="github">
   <diagram id="yIgD7lUuD3hxtnnrf3k3" name="Page-1">
     <mxGraphModel dx="1415" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFF99" math="0" shadow="0">
       <root>
@@ -201,9 +201,9 @@
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-8" value="unpass" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="320" width="86" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-10" value="任务开始执行" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="400" y="590" width="100" height="30" as="geometry">
-            <mxRectangle x="400" y="590" width="142" height="70" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-10" value="任务开始执行" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="590" width="142" height="70" as="geometry">
+            <mxRectangle x="400" y="590" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-11" value="startTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-10">
@@ -212,9 +212,9 @@
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-12" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-10">
           <mxGeometry y="50" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-16" value="任务执行失败" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="510" y="1015" width="100" height="30" as="geometry">
-            <mxRectangle x="610" y="1000" width="142" height="110" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-16" value="任务执行失败" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1015" width="142" height="110" as="geometry">
+            <mxRectangle x="510" y="1015" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-18" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-16">
@@ -229,9 +229,9 @@
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-21" value="failureReason" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-16">
           <mxGeometry y="90" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-22" value="任务执行成功" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="345" y="1115" width="100" height="30" as="geometry">
-            <mxRectangle x="610" y="1130" width="142" height="90" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-22" value="任务执行成功" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1085" width="142" height="90" as="geometry">
+            <mxRectangle x="345" y="1115" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-25" value="endTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-22">
@@ -243,17 +243,17 @@
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-27" value="status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-22">
           <mxGeometry y="70" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-29" value="保存推送的消息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="514" y="1210" width="100" height="30" as="geometry">
-            <mxRectangle x="610" y="1210" width="142" height="50" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-29" value="保存推送的消息" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="514" y="1210" width="142" height="50" as="geometry">
+            <mxRectangle x="514" y="1210" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-30" value="taskCallbackMessage" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-29">
           <mxGeometry y="30" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-33" value="推送消息状态与原因" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="510" y="1415" width="100" height="30" as="geometry">
-            <mxRectangle x="510" y="1415" width="142" height="70" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-33" value="推送消息状态与原因" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1415" width="142" height="70" as="geometry">
+            <mxRectangle x="510" y="1415" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-34" value="taskCallbackStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-33">
@@ -262,9 +262,9 @@
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-37" value="taskCallbackFailureReason" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-33">
           <mxGeometry y="50" width="142" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="wja7X2EV_rdsZ7r2_0fO-35" value="推送消息的状态" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="345" y="1520" width="100" height="30" as="geometry">
-            <mxRectangle x="345" y="1520" width="142" height="50" as="alternateBounds" />
+        <mxCell id="wja7X2EV_rdsZ7r2_0fO-35" value="推送消息的状态" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1520" width="142" height="50" as="geometry">
+            <mxRectangle x="345" y="1520" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wja7X2EV_rdsZ7r2_0fO-36" value="taskCallbackStatus" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="wja7X2EV_rdsZ7r2_0fO-35">
