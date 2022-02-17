@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T09:11:14.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="0UwQf6Dqx1uaHfM05Ri4" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T09:11:28.500Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Iht42dBcE49nsiET5pZu" version="16.5.4" type="github">
   <diagram id="0GQnB5yow0hdRHug8OBi" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="280" y="710" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="has1bypbPheIVJs6XCDW-22" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;对于链表扩容：会将原同一个桶位的元素扩容后要么分布在原桶位要么在它原桶位i+原tab数组长度为n的桶位中：&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;font-style: italic&quot;&gt;setTabAt&lt;/span&gt;(nextTab&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;i&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;ln)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic&quot;&gt;setTabAt&lt;/span&gt;(nextTab&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;i + n&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;hn)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-style: italic&quot;&gt;setTabAt&lt;/span&gt;(tab&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;i&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;fwd)&lt;span style=&quot;color: #cc7832&quot;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #cc7832&quot;&gt;即：ln = i, hn = i + n(&lt;/span&gt;原tab数组长度)&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#333333;strokeColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="200" y="860" width="720" height="230" as="geometry" />
+          <mxGeometry x="200" y="880" width="720" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
