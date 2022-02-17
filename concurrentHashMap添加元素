@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T08:03:46.013Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.5.4" etag="lbCjOFpPnbUEjxpCH1cO" type="github"><diagram id="0GQnB5yow0hdRHug8OBi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-17T08:39:08.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="C-g0HqPm-J7OOys6F0el" version="16.5.4" type="github">
+  <diagram id="0GQnB5yow0hdRHug8OBi" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="has1bypbPheIVJs6XCDW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-1" target="has1bypbPheIVJs6XCDW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="294" y="50" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.523;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-2" target="has1bypbPheIVJs6XCDW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-2" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;droid sans mono slashed&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;tab == &lt;span style=&quot;color: #cc7832&quot;&gt;null &lt;/span&gt;|| (n = tab.&lt;span style=&quot;color: #9876aa&quot;&gt;length&lt;/span&gt;) == &lt;span style=&quot;color: #6897bb&quot;&gt;0&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="182" y="110" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-4" value="&lt;pre style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;initTable()&lt;/span&gt;初始化表;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sizeCtl此时= -1&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="580" y="125" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-6" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;droid sans mono slashed&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;(f = &lt;span style=&quot;font-style: italic&quot;&gt;tabAt&lt;/span&gt;(tab&lt;span style=&quot;color: #cc7832&quot;&gt;, &lt;/span&gt;i = (n - &lt;span style=&quot;color: #6897bb&quot;&gt;1&lt;/span&gt;) &amp;amp; hash)) == &lt;span style=&quot;color: #cc7832&quot;&gt;null&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-8" value="判断该桶位上是否有元素，没有则cas添加元素" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-10" target="has1bypbPheIVJs6XCDW-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-10" target="has1bypbPheIVJs6XCDW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-10" value="&lt;pre style=&quot;background-color: #2b2b2b ; color: #a9b7c6 ; font-family: &amp;quot;droid sans mono slashed&amp;quot; , monospace ; font-size: 9.8pt&quot;&gt;(fh = f.&lt;span style=&quot;color: #9876aa&quot;&gt;hash&lt;/span&gt;) == &lt;span style=&quot;color: #9876aa ; font-style: italic&quot;&gt;MOVED&lt;/span&gt;&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="175" y="400" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-12" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;判断该位桶上是否在扩容，因为扩容时会添加一个forwardNode元素，该元素的hash值就是moved=-1，并协助&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;tab = helpTransfer(tab&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;f)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;;扩容&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="570" y="380" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#333333;" edge="1" parent="1" source="has1bypbPheIVJs6XCDW-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="345" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-14" value="通过&lt;span style=&quot;color: rgb(204 , 120 , 50) ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;synchronized&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;安全的尾插或者修改元素&lt;/font&gt;&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="170" y="540" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-16" value="&lt;pre style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;h4 style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;div style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-weight: 400&quot;&gt;binCount用于&lt;/div&gt;&lt;div style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-weight: 400&quot;&gt;计算位桶上的长度，&lt;/div&gt;&lt;div style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-weight: 400&quot;&gt;if (binCount &amp;gt;= TREEIFY_THRESHOLD=8)&lt;/div&gt;&lt;div style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-weight: 400&quot;&gt;treeifyBin(tab, i);转为红黑树&lt;/div&gt;&lt;/h4&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;strokeColor=#333333;align=center;" vertex="1" parent="1">
+          <mxGeometry x="580" y="545" width="230" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="has1bypbPheIVJs6XCDW-19" value="&lt;font color=&quot;#333333&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;addcount(1，bincount&lt;span&gt;),统计整个map的元素，并根据&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sizeCtl&lt;/span&gt;&lt;span&gt;判断是否需要扩容，此时&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;sizeCtl表示扩容的阈值， 如果&amp;gt;=&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 13.0667px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sizeCtl则进行扩容，此时会修改&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 13.0667px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sizeCtl为扩容戳+1|+2 ，该扩容戳的低16位表示线程数，此时&lt;/span&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;droid sans mono slashed&amp;#34; , monospace ; font-size: 13.0667px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sizeCtl为负数且&amp;lt;-1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="710" width="180" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
