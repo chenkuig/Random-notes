@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T12:37:59.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wGyEqqZlXVxYuMggWvXD" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-19T14:34:38.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="JL88jhL-JX-v9AuyTQWJ" version="16.6.1" type="github">
   <diagram id="kZqLTCx1hmDPI0V8Axih" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,11 +51,20 @@
         <mxCell id="z3RgFYrZ5Z90Y18z3lmt-16" value="error--&amp;gt;callback-{&lt;br&gt;onSendError()}" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="160" y="730" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.412;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-18" target="z3RgFYrZ5Z90Y18z3lmt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z3RgFYrZ5Z90Y18z3lmt-18" value="&amp;nbsp;Deque&amp;lt;ProducerBatch&amp;gt; dq = getOrCreateDeque(tp);获取topic的队列" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="407" y="620" width="230" height="50" as="geometry" />
+          <mxGeometry x="407" y="610" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-19" target="z3RgFYrZ5Z90Y18z3lmt-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z3RgFYrZ5Z90Y18z3lmt-19" value="&lt;div&gt;&amp;nbsp; synchronized (dq) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;tryAppend();}第一次同步插入，&lt;/div&gt;插入成功则返回追加结果&lt;br&gt;RecordAppendResult" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="450" y="690" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-22" target="z3RgFYrZ5Z90Y18z3lmt-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z3RgFYrZ5Z90Y18z3lmt-22" value="申请bytebuffer内存" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="470" y="830" width="120" height="60" as="geometry" />
@@ -68,6 +77,9 @@
         </mxCell>
         <mxCell id="z3RgFYrZ5Z90Y18z3lmt-24" value="释放bytebuffer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="487.5" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-29" value="1：ConcurrentMap&amp;lt;TopicPartition, Deque&amp;lt;ProducerBatch&amp;gt;&amp;gt; batches;存储" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="320" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
