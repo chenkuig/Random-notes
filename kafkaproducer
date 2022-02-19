@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T11:03:34.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.1" etag="X_Lwj50OhYkM6Gw-Nqe3" type="github"><diagram id="kZqLTCx1hmDPI0V8Axih">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-19T12:37:59.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="wGyEqqZlXVxYuMggWvXD" version="16.6.1" type="github">
+  <diagram id="kZqLTCx1hmDPI0V8Axih" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-1" target="z3RgFYrZ5Z90Y18z3lmt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-1" value="topic key 序列化&lt;br&gt;topic value 序列化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-2" target="z3RgFYrZ5Z90Y18z3lmt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-2" value="&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;计算分区&lt;/font&gt;&lt;/span&gt;partition，&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;自定义实现Partitioner接口&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-4" target="z3RgFYrZ5Z90Y18z3lmt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-4" value="设置拦截器回调实现类" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-5" target="z3RgFYrZ5Z90Y18z3lmt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-5" value="判断是否事务并设置" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-6" target="z3RgFYrZ5Z90Y18z3lmt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-6" value="追加消息到buffer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-8" value="&lt;div&gt;RecordAccumulator.RecordAppendResult result = accumulator.append(tp, timestamp, serializedKey,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; serializedValue, headers, interceptCallback, remainingWaitMs);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="374" y="500" width="296" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-13" target="z3RgFYrZ5Z90Y18z3lmt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-13" value="&amp;nbsp;this.sender.wakeup();即：&lt;br&gt;this.selector.wakeup();" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="620" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-16" value="error--&amp;gt;callback-{&lt;br&gt;onSendError()}" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-18" value="&amp;nbsp;Deque&amp;lt;ProducerBatch&amp;gt; dq = getOrCreateDeque(tp);获取topic的队列" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="407" y="620" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-19" value="&lt;div&gt;&amp;nbsp; synchronized (dq) {&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;tryAppend();}第一次同步插入，&lt;/div&gt;插入成功则返回追加结果&lt;br&gt;RecordAppendResult" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="690" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-22" value="申请bytebuffer内存" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="z3RgFYrZ5Z90Y18z3lmt-23" target="z3RgFYrZ5Z90Y18z3lmt-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-23" value="&lt;div&gt;&amp;nbsp;synchronized (dq) {&lt;/div&gt;&lt;div&gt;tryAppend()：尝试追加 ，追加成功则返回&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="920" width="215" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z3RgFYrZ5Z90Y18z3lmt-24" value="释放bytebuffer" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
